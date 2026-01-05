@@ -469,5 +469,3 @@ with open("models_grad_regressor_for_inference_hotspots.pkl", "wb") as f:
 
 print(len(models))
 print(metrics_total)
-
-
