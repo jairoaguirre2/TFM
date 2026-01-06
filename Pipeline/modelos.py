@@ -1,3 +1,7 @@
+# =====================================================================================================================
+# FUNCIONES PARA PREPARAR DATOS, ENTRENAR Y EVALUAR MODELOS
+# =====================================================================================================================
+
 import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas as pd
@@ -26,10 +30,6 @@ from sklearn.svm import SVR, SVC
 
 from sklearn.base import is_classifier, is_regressor
 from scipy.stats import spearmanr
-
-# =====================================================================================================================
-# FUNCIONES PARA PREPARAR DATOS, ENTRENAR Y EVALUAR MODELOS
-# =====================================================================================================================
 
 # -----------------------------------------------------------------------------------------------------------------------------
 # Preparar datos
@@ -456,3 +456,4 @@ def graficar_modelos(pickle_path, is_class=False, save_dir=None):
             filename = os.path.join(save_dir, f"{os.path.basename(pickle_path).replace('.pkl','')}_{dataset}.png")
             plt.savefig(filename, dpi=300)
             print(f"Figura guardada: {filename}")
+
