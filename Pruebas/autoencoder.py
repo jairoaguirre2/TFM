@@ -20,6 +20,7 @@ from funciones import (read_fasta_gzip, fasta_to_onehot, build_autoencoder, buil
 # - Separación train/valid por clusters
 # - Codificación one-hot con padding y masking
 # - Autoencoder con pérdida categórica ponderada por frecuencia de aminoácidos
+# - Pruebas con autoencoder para aprendizaje no supervisado (no utilizado en el pipeline final).
 # ================================================================================================================================
 
 # Lectura del FASTA original
@@ -289,6 +290,7 @@ plt.xticks(
 
 plt.tight_layout()
 plt.savefig(f"loss_curves_{basename}.png", dpi=300)
+
 
 
 
