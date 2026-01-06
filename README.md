@@ -1,4 +1,4 @@
-## **Predicción mediante machine learning de mutantes enzimáticos para la degradación de plásticos: aplicación a cutinasas**
+## **Predicción mediante *machine learning* de mutantes enzimáticos para la degradación de plásticos: aplicación a cutinasas**
 
 Este repositorio contiene el código desarrollado para el Trabajo Fin de Máster 
 
@@ -9,7 +9,7 @@ El proyecto implementa un *pipeline* completo de entrenamiento y predicción, qu
 la codificación de secuencias, el entrenamiento de modelos supervisados y la inferencia
 sobre nuevos mutantes.
 
-## Estructura del repositorio
+# Estructura del repositorio
 
 * Pipeline: Contiene el flujo final del trabajo y consta de cuatro archivos:
   1. funciones.py: Funciones generales para codificación de secuencias, definición de autoencoder y mutaciones
