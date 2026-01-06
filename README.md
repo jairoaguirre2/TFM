@@ -1,4 +1,4 @@
-**“Predicción mediante machine learning de mutantes enzimáticos para la degradación de
+## **“Predicción mediante machine learning de mutantes enzimáticos para la degradación de
 plásticos: aplicación a cutinasas”**
 
 Este repositorio contiene el código desarrollado para el Trabajo Fin de Máster 
