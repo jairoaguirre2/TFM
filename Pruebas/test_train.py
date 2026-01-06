@@ -11,6 +11,16 @@ from funciones import encode_oh, encode_oh_c, encode_oh_d, encode_oh_t
 from time import time
 SEED=164
 
+# ======================================================================================================================
+# ARCHIVO DE PRUEBA Y DESARROLLO DE LOS MODELOS DE ENTRENAMIENTO 
+# En este script se entrenaron modelos preliminares con el dataset publico y se realizaron pruebas experimentales 
+# Las funciones aquí utilizadas fueron posteriormente modificadas, optimizadas  y trasladadas a los módulos 
+# finales empleados para la obtención de los resultados presentados en el apartado de Resultados.
+# Este archivo se incluye con fines de trazabilidad del flujo de trabajo y documentación del proceso de desarrollo,
+#  no como código final reproducible
+# ====================================================================================================================
+
+
 # -----------------------------------------------------------------------------------------------------------
 # Graficos 
 # -----------------------------------------------------------------------------------------------------------
@@ -713,4 +723,5 @@ X_t, y_t = encode_b_t(target_column=target_col, seq1=seq1, seq2=seq2,
     blosum=blosum62, data=data
 )
 print("encode_b_t completado.")
+
 
