@@ -15,7 +15,7 @@ sobre nuevos mutantes.
   1. funciones.py: Funciones generales para codificación de secuencias, definición de autoencoder y mutaciones
   2. modelos.py: Funciones para preparar datos, entrenar y optimizar modelos, evaluación de métricas y generar
      tablas y gráficas
-  3. entrnemiento.py: *Script* principal para el entrenamiento de modelos, selección de los mejores enfoques
+  3. entrnemiento.py: *Script* principal para el entrenamiento de modelos, selección de los mejores algoritmos
      y reentrenamiento con los hiperparámetros óptimos
   4. predicciones.py: Inferencia masiva sobre librerías combinatorias de mutantes y análisis posterior
      de los resultados.
