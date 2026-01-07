@@ -1,4 +1,4 @@
-## Predicción mediante *machine learning* de mutantes enzimáticos para la degradación de plásticos: aplicación a cutinasas
+## Estrategias de machine learning para asistir la evolución dirigida de enzimas hacia la degradación de plásticos hidrolizables
 
 Este repositorio contiene el código desarrollado para el Trabajo Fin de Máster 
 
